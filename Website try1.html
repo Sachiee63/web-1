@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <title>Website using Responsive</title>
+    <style>
+      * {
+        text-decoration: none;
+        padding: 2px;
+        margin: 0;
+      }
+      :root {
+        --main: #f3ece2;
+        --black: #000;
+        --white: #fff;
+        --heading: #ef8532;
+        --lightorange: #edc064;
+      }
+
+      .main {
+        background-image: url(mountain.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+      }
+      .logo {
+        display: flex;
+        color: rgb(0, 0, 0);
+        align-items: center;
+        justify-content: center;
+        margin-right: 100px;
+      }
+      header {
+        display: flex;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        justify-content: center;
+        margin-top: 250px;
+        font-size: larger;
+      }
+      .nav ul li {
+        float: right;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        text-decoration: none;
+        gap: 30px;
+      }
+      .nav ul li a {
+        background-color: rgb(5, 4, 4);
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+      }
+      .nav ul li a:hover {
+        background-color: rgb(255, 238, 249);
+        color: black;
+      }
+      button {
+        color: rgb(255, 255, 255);
+        background-color: rgb(8, 8, 8);
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 10px;
+        font-weight: bold;
+      }
+      button:hover {
+        background-color: rgb(255, 238, 249);
+        color: black;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        color: white;
+        text-align: center;
+        border-radius: 5px;
+      }
+      img {
+        width: 250px;
+        height: 150px;
+        margin-left: 10px;
+        gap: 10px;
+      }
+      .item img {
+        transition: 0.2 ease-in;
+      }
+      .item img:hover {
+        transform: scale(1.2);
+      }
+      h3 {
+        color: black;
+      }
+      h3:hover {
+        background-color: white;
+        border-radius: 10px;
+      }
+      p {
+        display: block;
+        color: black;
+        background-color: rgb(168, 211, 211);
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        justify-content: center;
+        margin-right: 250px;
+      }
+      p:hover {
+        background-color: rgb(146, 180, 230);
+        transform: scale(1.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="logo">
+        <h2>ADVENTURE</h2>
+        <div class="nav">
+          <ul>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Home</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <header>
+        <h2>Explore The colorful World</h2>
+        <br></br>
+
+
+        <h1>A WONDERFUL GIFT</h1>
+        <br>
+        <button>Learn more</button>
+      </header>
+    </div>
+
+    <section class="container" id="container">
+      <div class="item">
+        <img src="vietnam.jpg" /><br /><br />
+        <h3>vietnam hills</h3>
+        <p>
+          Danang: A progressive city with access to riverside towns, national
+          parks, and beaches Mekong Delta: Features on-the-water villages and
+          mangrove forests Hoi An: A UNESCO World Heritage Site that has
+          retained its charm despite the influx of tourists
+        </p>
+      </div>
+      <div class="item">
+        <img src="paris.jpg" /><br /><br />
+        <h3>paris</h3>
+        <p>
+          Paris is known for its gorgeous, imposing monuments. These iconic
+          structures, often an exemplar of a particular era in architecture, are
+          one of the city's instantly recognizable elements. The preeminent of
+          Paris's landmarks is the Eiffel Tower
+        </p>
+      </div>
+      <div class="item">
+        <img src="boating.jpg" /><br /><br />
+        <h3>Boating</h3>
+        <p>
+          Making time on the water is among the favourite recreational activity
+          during summers. This eye-shaped lake, located at the height of 1938
+          meters, offer boating as the major attraction for tourists who seek
+          some entertaining activities at the hill station.
+        </p>
+      </div>
+      <div class="item">
+        <img src="hiking.jpg" /><br /><br />
+        <h3>hiking</h3>
+        <p>
+          Hiking is a weight-bearing exercise that builds muscle mass and helps
+          prevent osteoporosis. Hiking can help you manage your weight. It is a
+          joint-friendly form of exercise that can keep arthritis sufferers more
+          limber and mobile. Being outside in the sunshine provides the body
+          with vitamin D.
+        </p>
+      </div>
+      <div class="item">
+        <img src="forest.jpg" /><br /><br />
+        <h3>forest tour</h3>
+        <p>
+          Located 67kms from Kakinada and 65kms from Rajahmundry, Addatheegala
+          is full of forest-clad mountains, streams and deep gaping valley
+        </p>
+      </div>
+      <div class="item">
+        <img src="bunjiee.jpg" /><br /><br />
+        <h3>bunjiee jumping</h3>
+        <p>
+          Macau Tower, China The world's highest commercial bungee jump at 764
+          ft (233 m). Jumpers experience a freefall of up to 125 mph for four to
+          five seconds
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
